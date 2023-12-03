@@ -1,13 +1,16 @@
 #pragma once
 
-namespace KPetrova {
-    void exit();
-    void study();
+#include "menu.hpp"
 
-    void study_summ();
-    void study_substract();
-    void study_multiply();
-    void study_divide();
-    void study_go_back();
+namespace KPetrova {
+    const MenuItem* show_menu(const MenuItem* current);
+
+    const MenuItem* exit(const MenuItem* current);
+
+    const MenuItem* study_summ(const MenuItem* current);
+    const MenuItem* study_substract(const MenuItem* current);
+    const MenuItem* study_multiply(const MenuItem* current);
+    const MenuItem* study_divide(const MenuItem* current);
+    const MenuItem* study_go_back(const MenuItem* current);
 }
 
