@@ -9,3 +9,24 @@ void KPetrova::exit() {
 void KPetrova::study() {
 
 }
+
+void KPetrova::study_summ() {
+    // TODO
+}
+
+void KPetrova::study_substract() {
+    // TODO
+}
+
+void KPetrova::study_multiply() {
+    // TODO
+}
+
+void KPetrova::study_divide() {
+    // TODO
+}
+
+void KPetrova::study_go_back() {
+    // TODO
+}
+
